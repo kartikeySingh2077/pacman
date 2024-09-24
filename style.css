@@ -1,0 +1,65 @@
+/* Add this in style.css */
+body {
+    font-family: 'Fredoka One', sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(28, 20px);
+    grid-template-rows: repeat(28, 20px);
+    margin: 20px auto;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: #ffd700;
+    border-radius: 50%;
+}
+
+.wall {
+    background-color: #0033cc;
+}
+
+.ghost-lair {
+    background-color: #ff66cc;
+}
+
+.power-pellet {
+    background-color: #ff4500;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: auto;
+}
+
+.pac-man {
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.ghost {
+    border-radius: 50%;
+}
+
+.blinky {
+    background-color: red;
+}
+
+.pinky {
+    background-color: pink;
+}
+
+.inky {
+    background-color: white;
+}
+
+.clyde {
+    background-color: orange;
+}
